@@ -1,0 +1,20 @@
+/* Footer */
+footer {
+    background-color: #0f2d0f; /* Couleur de secours */
+    background-image: url('/Images/process-one-shape-1.png'); /* Image d'arrière-plan */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
