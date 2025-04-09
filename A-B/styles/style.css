@@ -906,7 +906,7 @@ i.fas.fa-long-arrow-alt-right{
     font-size: 13px;
    
   }
-  .overlay {
+  .team-member.overlay {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -1040,6 +1040,360 @@ i.fas.fa-long-arrow-alt-right{
 
 
 
+/*contact page*/
+
+
+body {
+    background-color: #0f1e0f;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+section.contact-form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .contact-form-section h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .contact-form,
+  .connexion-form {
+    width: 65%;
+    padding: 10px;
+  }
+
+  .contact-form .form-row,
+  .connexion-form .form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .connexion-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dff2d8;
+    font-size: 14px;
+    height: 60px;
+  }
+
+  .contact-form textarea {
+    width: 100%;
+    height: 226px;
+    resize: none;
+    margin-bottom: 10px;
+  }
+
+  .contact-form button,
+  .connexion-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dff2d8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .contact-form button:hover,
+  .connexion-form button:hover {
+    background-color: lime;
+  }
+
+  .connexion-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .connexion-section h2 {
+    margin: 40px 0 20px;
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    display: inline-block;
+  }
+
+  .connexion-section h2::before,
+  .connexion-section h2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 430px;
+    height: 2px;
+    background-color:  #dff2d8;
+  }
+
+  .connexion-section h2::before {
+    right: 100%;
+    margin-right: 10px;
+  }
+
+  .connexion-section h2::after {
+    left: 100%;
+    margin-left: 10px;
+  }
+
+
+
+.section-inscription {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+
+
+
+/*PROFIL CLIENT*/
+
+
+.menu-client {
+    width: 200px;
+    padding: 20px;
+  }
+
+.menu-client ul {
+    list-style: none;
+    
+    display: flex
+    ;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+.menu-client li {
+    margin: 15px 0;
+    cursor: pointer;
+  }
+
+main {
+    flex: 1;
+    padding: 20px;
+  }
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    
+    
+    
+  }
+
+  .histo-ligne h2{
+    
+    font-size: clamp(1rem, 4vw, 2.5rem);
+    
+    
+  }
+
+  .histo-ligne {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 1rem;
+    max-width: max-content;
+    width: -webkit-fill-available;
+  }
+  
+  .ligne {
+    flex: 1;
+    height: 4px;
+    background-color: #28a745;
+    max-width: 439px;
+    width: 439px;
+  }
+  
+
+  
+
+
+
+
+  
+.section-devis-en-cours {
+    display: flex
+    ;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+  }
+
+  
+
+
+  .carte-devis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .numero-devis {
+    background-color: #dff2d8;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+
+  .carte-devis img {
+    width: 300px;
+    border: 2px solid white;
+    margin-bottom: 15px;
+  }
+
+  .boutons-action {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+  }
+
+  .bouton-annuler,
+  .bouton-valider {
+    padding: 10px 70px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .bouton-annuler {
+    background-color: orange;
+  }
+
+  .bouton-valider {
+    background-color: lime;
+  }
+
+.section-historique-devis {
+    display: flex
+    ;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+  }
+
+.liste-historique {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+    width: -webkit-fill-available;
+    margin-bottom: 40px;
+  }
+
+  .devis-passe {
+    position: relative;
+    width: 387px;
+    height: -webkit-fill-available;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .devis-passe.realisation .overlay {
+    position: absolute;
+    width: 87%;
+    height: 72%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+   
+    bottom: 30px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  .devis-passe:hover .overlay {
+    opacity: 1;
+  }
+
+  .devis-passe p {
+    background-color: #dff2d8;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .devis-passe img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+
+
+  /*PROFIL daschoard*/
+
+
+.menu-dashboard {
+  width: 260px;
+  padding: 20px;
+}
+
+
+.menu-dashboard ul {
+  list-style: none;
+  
+  display: flex
+  ;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.menu-dashboard li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+
+.section-utilisateurs {
+  padding: 20px;
+  
+  
+}
+
+
+
+
+/* Section utilisateurs */
+.section-utilisateurs {
+  padding: 20px;
+ 
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 
 
@@ -1047,8 +1401,304 @@ i.fas.fa-long-arrow-alt-right{
 
 
 
+/* Tableau */
+.tableau-client {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tableau-client thead {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.tableau-client th,
+.tableau-client td {
+  padding: 15px;
+  text-align: left;
+  font-size: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableau-client th {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 
+
+
+
+.tableau-client td {
+  color: #000; /
+}
+
+
+.action-select {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.action-select:hover {
+  border-color: #28a745;
+}
+
+
+
+.services {
+ 
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 0;
+}
+
+
+.choix-services h2{
+  font-size: clamp(2rem, 2.6vw, 2.5rem);
+}
+
+.icones-services img{
+  width: -webkit-fill-available;
+}
+
+
+
+.btn-devis {
+  background-color: #34d059;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.choix-services {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.icones-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.bloc-icone i {
+  font-size: 2rem;
+  color: #34d059;
+  margin-bottom: 0.5rem;
+}
+
+.bloc-prestations {
+  display: flex;
+ 
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.liste-prestations {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background-color: #e6f0dc;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 324px;
+}
+
+.element-prestation {
+  background-color: white;
+  color: #10230b;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: left;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.element-prestation:hover {
+  background-color: #34d059;
+  color: white;
+}
+
+.image-prestation img {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image-prestation {
+  display: flex
+  ;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.description-service {
+  text-align: left;
+
+  line-height: 1.6;
+  max-width: 600px;
+  width: 100%;
+}
+.description-service h3 {
+  font-size: 1.8rem;
+  
+}
+
+.choix-services{
+  font-size: 1.5rem;
+}
+
+.description-service p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.description p {
+  margin-left: auto;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    
+    font-size: clamp(1rem, 2.5vw, 1.7rem);
+
+}
+
+.avantages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  padding: 2rem;
+  margin-top: 40px;
+}
+
+.photo-avantage img {
+  width: clamp(200px, 40vw, 406px);
+  height: clamp(200px, 40vw, 406px);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.texte-avantages{
+  display: flex
+  ;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    
+}
+
+.texte-avantages h3 {
+  
+
+  font-size: clamp(1.8rem, 2.6vw, 2rem);
+
+  
+  color: #34d059;
+  margin-bottom: 1rem;
+}
+.texte-avantages p {
+  font-size: clamp(1.3rem, 2.6vw, 2rem);
+
+  line-height: 1.6;
+}
+
+.texte-avantages ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+}
+
+.texte-avantages li {
+  margin-bottom: 0.8rem;
+  list-style: none;
+}
+
+.texte-avantages i {
+  color: #34d059;
+  margin-right: 0.5rem;
+}
+
+.bouton-bas-page {
+  text-align: center;
+  
+}
+
+.bouton-bas-page .devis-btn {
+  
+  background: rgb(0 0 0 / 53%);
+  border: 1px solid var(--header-green);
+  color: var(--header-white);
+  padding: 1rem 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  
+  position: sticky;
+  margin-bottom: 0px;
+  width: 150px;
+  height: 150px;
+  font-size: 17px;
+  display: flex
+;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border-radius: 50%;
+
+/* --- RESPONSIVE --- */
+@media screen and (max-width: 768px) {
+  .banniere-services {
+    height: auto;
+    padding: 3rem 1rem;
+  }
+
+  .texte-banniere h1 {
+    font-size: 1.5rem;
+  }
+
+  .icones-services,
+  .bloc-prestations,
+  .avantages {
+    flex-direction: column;
+  }
+
+  .photo-avantage img {
+    width: 80%;
+  }
+
+  .texte-avantages {
+    text-align: center;
+  }
+
+  .liste-prestations {
+    width: 100%;
+  }
+
+  .image-prestation img {
+    max-width: 100%;
+  }
+}
 
 
 
