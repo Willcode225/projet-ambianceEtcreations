@@ -1,75 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin - Ambiance & Créations</title>
 
-   
 
-    <!-- Vos fichiers CSS -->
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="stylesheet" href="/styles/footer.css">
-    <link rel="stylesheet" href="/styles/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
- 
- 
-  <header>
-    <div class="header-carousel carousel" data-carousel>
-        <div class="header-carousel-inner carousel-inner">
-            <div class="header-slide carousel-slide active" style="background-image: url('/images/slider-1-2.jpg');"></div>
-            <div class="header-slide carousel-slide" style="background-image: url('/images/slider-1-3.jpg');"></div>
-            <div class="header-slide carousel-slide" style="background-image: url('/images/IMG-20250221-WA0025.jpg');"></div>
-        </div>
-    </div>
-
-    <nav>
-        <div class="logo">
-            <img src="/images/Ambiance-et-Creations+LOGO-1920w.png" alt="Logo Ambiance Créations">
-        </div>
-
-        <button class="mobile-menu-btn">
-            <i class="fas fa-bars"></i>
-        </button>
-
-        <div class="menus-bar">
-            <div class="bar">
-                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-            </div>
-            <div class="menus">
-                <ul>
-                    <a href="index.html" class="home-icon">
-                        <i class="fa-solid fa-house-chimney"></i>
-                    </a>
-                    <li><a href="#about">À PROPOS</a></li>
-                    <li class="dropdown">
-                        <a href="#services">NOS SERVICES</a>
-                        <div class="dropdown-content">
-                            <a href="#entretien">Entretien & abattage</a>
-                            <a href="#amenagement">Aménagement Extérieurs</a>
-                            <a href="#pepiniere">Pépinière</a>
-                        </div>
-                    </li>
-                    <li><a href="#realisations">NOS RÉALISATIONS</a></li>
-                    <li><a href="#contact"><i class="fa-solid fa-address-book"></i>CONTACT</a></li>
-                    <li><a href="#" class="btn-connect"><i class="fa-solid fa-user"></i>SE CONNECTER</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="header-HERO">
-        <p>Des techniques respectueuses pour un jardin éclatant !</p>
-        <h1>Sublimer votre jardin</h1>
-        <a href="#devis" class="devis-btn">AVOIR UN DEVIS</a>
-    </div>
-</header>
+<?php include 'includes/header.php'; ?>
 
   <!-- Menu latéral -->
   <aside class="menu-dashboard">
@@ -125,7 +56,7 @@
     <div class="liste-historique">
       <div class="devis-passe realisation">
         <p>Devis #1234</p>
-        <img src="/images/Black and White Simple Order Form A4 Document (1).jpg" alt="devis 1">
+        <img src="images/Black and White Simple Order Form A4 Document (1).jpg" alt="devis 1">
         <div class="overlay">
             <i class="fas fa-eye"></i>
             <p>Voir le devis</p>
@@ -133,7 +64,7 @@
      </div>
      <div class="devis-passe realisation">
         <p>Devis #1234</p>
-        <img src="/Images/Black and White Simple Order Form A4 Document (1).jpg"alt="Devis passé">
+        <img src="Images/Black and White Simple Order Form A4 Document (1).jpg"alt="Devis passé">
         <div class="overlay">
           <i class="fas fa-eye"></i>
           <p>Voir le devis</p>
@@ -141,7 +72,7 @@
      </div>
      <div class="devis-passe realisation">
         <p>Devis #1234</p>
-        <img src="/Images/Black and White Simple Order Form A4 Document (1).jpg" alt="Devis passé">
+        <img src="Images/Black and White Simple Order Form A4 Document (1).jpg" alt="Devis passé">
         <div class="overlay">
           <i class="fas fa-eye"></i>
           <p>Voir le devis</p>
@@ -218,18 +149,4 @@
         </tbody>
     </table>
 </section>
-
-  <footer>
-    <div class="footer-content">
-       
-        <p>&copy; 2024 Ambiance Créations</p>
-    </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoYz1HIQ6aU8K9GkE7Z1Hq9r4NgxgKNF0xFSWG0t4EcP2K1" crossorigin="anonymous"></script>
-<script src="/js/script.js"></script>
-
-
-
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>

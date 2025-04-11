@@ -1,72 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Propos - Ambiance & Créations</title>
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="stylesheet" href="/styles/footer.css">
-    <link rel="stylesheet" href="/styles/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
- 
- 
-    <header>
-        <div class="header-carousel carousel" data-carousel>
-            <div class="header-carousel-inner carousel-inner">
-                <div class="header-slide carousel-slide active" style="background-image: url('/images/slider-1-2.jpg');"></div>
-                <div class="header-slide carousel-slide" style="background-image: url('/images/slider-1-3.jpg');"></div>
-                <div class="header-slide carousel-slide" style="background-image: url('/images/IMG-20250221-WA0025.jpg');"></div>
-            </div>
-        </div>
-
-        <nav>
-            <div class="logo">
-                <img src="/images/Ambiance-et-Creations+LOGO-1920w.png" alt="Logo Ambiance Créations">
-            </div>
-
-            <button class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <div class="menus-bar">
-                <div class="bar">
-                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-                </div>
-                <div class="menus">
-                    <ul>
-                        <a href="index.html" class="home-icon">
-                            <i class="fa-solid fa-house-chimney"></i>
-                        </a>
-                        <li><a href="#about">À PROPOS</a></li>
-                        <li class="dropdown">
-                            <a href="#services">NOS SERVICES</a>
-                            <div class="dropdown-content">
-                                <a href="#entretien">Entretien & abattage</a>
-                                <a href="#amenagement">Aménagement Extérieurs</a>
-                                <a href="#pepiniere">Pépinière</a>
-                            </div>
-                        </li>
-                        <li><a href="#realisations">NOS RÉALISATIONS</a></li>
-                        <li><a href="#contact"><i class="fa-solid fa-address-book"></i>CONTACT</a></li>
-                        <li><a href="#" class="btn-connect"><i class="fa-solid fa-user"></i>SE CONNECTER</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <div class="header-HERO">
-            <p>Des techniques respectueuses pour un jardin éclatant !</p>
-            <h1>Sublimer votre jardin</h1>
-            <a href="#devis" class="devis-btn">AVOIR UN DEVIS</a>
-        
-        </div>
-  </header>
+<?php include 'includes/header.php'; ?>
 
 
     
@@ -75,10 +7,10 @@
     <section class="about-intro">
         <div class="info-container">
             <div class="info-box">
-                <img src="/images/AdobeStock_201771955-1920w.jpeg" alt="jardin 1">
+                <img src="images/AdobeStock_201771955-1920w.jpeg" alt="jardin 1">
             </div>
             <div class="info-box">
-                <img src="/images/Jardin-japonais-1920w-1920w.jpg" alt="jardin 2">
+                <img src="images/Jardin-japonais-1920w-1920w.jpg" alt="jardin 2">
             </div>
             <div class="info-text">
                 <h2>AMBIANCE ET CREATIONS : l’artisan paysagiste pour vos jardins</h2>
@@ -87,7 +19,7 @@
             </div>
         </div>
         <div class="atouts">
-           <img src="/Images/Capture d’écran 2025-03-09 120202.png" alt="">
+           <img src="Images/Capture d’écran 2025-03-09 120202.png" alt="">
         </div>
     </section>
 
@@ -101,7 +33,7 @@
        
         <div class="team-member">
           <div class="image-container">
-            <img src="/images/team-1-3.jpg" alt="Jardinier">
+            <img src="images/team-1-3.jpg" alt="Jardinier">
             <div class="info">
                 <p>JARDINIER</p>
                 <h3>Dimi R</h3>
@@ -123,7 +55,7 @@
         </div>
         <div class="team-member">
           <div class="image-container">
-            <img src="/images/team-1-3.jpg" alt="Jardinier">
+            <img src="images/team-1-3.jpg" alt="Jardinier">
             <div class="info">
                 <p>JARDINIER</p>
                 <h3>Dimi R</h3>
@@ -145,7 +77,7 @@
         </div>
         <div class="team-member">
           <div class="image-container">
-            <img src="/images/team-1-3.jpg" alt="Jardinier">
+            <img src="images/team-1-3.jpg" alt="Jardinier">
             <div class="info">
                 <p>JARDINIER</p>
                 <h3>Dimi R</h3>
@@ -189,18 +121,6 @@
         </p>
        
     </section>
-     <div class="cta-center">
-            <a href="#contact" class="devis-btn">AVOIR UN DEVIS</a>
-    </div>
+    <?php include 'includes/cta-devis.php'; ?>
 
-   
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 Ambiance & Créations</p>
-        </div>
-    </footer>
-
-    <script src="/js/script.js"></script>
-</body>
-</html>
-
+    <?php include 'includes/footer.php'; ?>
